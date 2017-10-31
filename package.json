@@ -1,8 +1,7 @@
 {
   "name": "react-circular",
-  "version": "1.0.0",
-  "description":
-    "Higher Order Component to position elements in a circular pattern",
+  "version": "1.0.1",
+  "description": "Higher Order Component to position elements in a circular pattern",
   "main": "index.js",
   "module": "./src/index.js",
   "scripts": {
@@ -10,10 +9,8 @@
     "clean": "rm *.js",
     "lint": "eslint src",
     "prepublishOnly": "yarn build",
-    "format":
-      "prettier src/**/*.js --write --single-quote --trailing-comma all --no-bracket-spacing",
-    "format-check":
-      "prettier-check src/**/*.js --write --single-quote --trailing-comma all --no-bracket-spacing",
+    "format": "prettier src/**/*.js --write --single-quote --trailing-comma all --no-bracket-spacing",
+    "format-check": "prettier-check src/**/*.js --write --single-quote --trailing-comma all --no-bracket-spacing",
     "test": "jest --coverage"
   },
   "keywords": [],
@@ -43,7 +40,9 @@
     "react-dom": "^16.0.0"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "dependencies": {
     "prop-types": "^15.6.0"
