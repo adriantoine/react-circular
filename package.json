@@ -1,0 +1,50 @@
+{
+  "name": "react-circular",
+  "version": "1.0.0",
+  "description":
+    "Higher Order Component to position elements in a circular pattern",
+  "main": "index.js",
+  "module": "./src/index.js",
+  "scripts": {
+    "build": "babel src -d ./",
+    "clean": "rm *.js",
+    "lint": "eslint src",
+    "format":
+      "prettier src/**/*.js --write --single-quote --trailing-comma all --no-bracket-spacing",
+    "format-check":
+      "prettier-check src/**/*.js --write --single-quote --trailing-comma all --no-bracket-spacing",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Adrien Antoine <adriantoine@gmail.com> (http://adriantoine.com)",
+  "license": "MIT",
+  "repository": "https://github.com/adriantoine/react-circular",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "enzyme-to-json": "^3.1.4",
+    "eslint": "^4.9.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.7.4",
+    "prettier-check": "^2.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
+}

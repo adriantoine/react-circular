@@ -1,0 +1,6 @@
+---
+extends: [standard, standard-react, prettier, prettier/react]
+
+env:
+  browser: true
+  es6: true

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculates a basic position 1`] = `
+<CirclePosition
+  adjust={0}
+  angle={90}
+  radius={100}
+>
+  <text
+    x={200}
+    y={100}
+  >
+    Test
+  </text>
+</CirclePosition>
+`;
+
+exports[`calculates a complex position 1`] = `
+<CirclePosition
+  adjust={0}
+  angle={41}
+  radius={100}
+>
+  <text
+    x={165.60590289905073}
+    y={175.47095802227722}
+  >
+    Test
+  </text>
+</CirclePosition>
+`;
+
+exports[`calculates a complex position with an adjust prop 1`] = `
+<CirclePosition
+  adjust={-20}
+  angle={41}
+  radius={100}
+>
+  <text
+    x={152.48472231924057}
+    y={160.37676641782176}
+  >
+    Test
+  </text>
+</CirclePosition>
+`;
+
+exports[`uses the render prop when provided 1`] = `
+<CirclePosition
+  adjust={0}
+  angle={90}
+  radius={100}
+  render={[Function]}
+>
+  <text
+    x={200}
+    y={100}
+  >
+    Rendered
+  </text>
+</CirclePosition>
+`;
