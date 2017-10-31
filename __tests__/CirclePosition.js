@@ -1,7 +1,7 @@
 /* eslint-env jest */
 
 import React from 'react';
-import CirclePosition from '../CirclePosition';
+import CirclePosition from '../src/CirclePosition';
 import Enzyme, {mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
